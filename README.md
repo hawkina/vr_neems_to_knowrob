@@ -14,7 +14,7 @@ Before you call this file, please open it in an editor of your choice and set th
 Simply call the following in the terminal:
 
 ```bash
-	$ ./import_episodes
+./import_episodes
 ```
 
 
@@ -25,5 +25,5 @@ This script fill add an *timestamp* index to all the laoded episodes. This qill 
 Call the following in your terminal:
 
 ```bash
-	$ mongo < indexing_timestamp.js 
+mongo < indexing_timestamp.js 
 ```
