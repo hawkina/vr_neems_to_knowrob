@@ -1,7 +1,7 @@
 # useful_scripts
 some scripts which make importing episode data into essentially KnowRob/OpenEase easier. For any bugs or improvement ideas for code or documentation, please open an issue.
 
-So far these scripts import the data in the format it results in from using [http://robcog.org/components.html](RobCog Semantic Logger) . Meaning a .json containing all the event data and a SemanticMap.owl describing the environment.
+So far these scripts import the data in the format it results in from using [RobCog Semantic Logger](http://robcog.org/components). Meaning a .json containing all the event data and a SemanticMap.owl describing the environment.
 
 ## import_episodes:
 This script will import all episode data into the currently running MongoDB instance. This script was written at a time, where MongoDB didn't support large files. This is why the files have to be split up first into multiple parts, loaded into the databse, and then dumped out again for further use. The newer versions of MongoDB don't require that extra step but it doesn't really harm either, so it's currently kept. 
