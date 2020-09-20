@@ -1,4 +1,4 @@
-# useful_scripts
+# VR-NEEMS to KnowRob import
 some scripts which make importing episode data into essentially KnowRob/OpenEase easier. For any bugs or improvement ideas for code or documentation, please open an issue.
 
 So far these scripts import the data in the format it results in from using [RobCog Semantic Logger](http://robcog.org/components.html). Meaning a .json containing all the event data and a SemanticMap.owl describing the environment.
